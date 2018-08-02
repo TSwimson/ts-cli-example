@@ -1,4 +1,2 @@
-export function run() {
-  const message: string = "Hello from TypeScript!";
-  console.log(message);
-}
+const message: string = "Hello from TypeScript!";
+console.log(message);
