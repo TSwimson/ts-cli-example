@@ -4,6 +4,7 @@
   "description": "This is an example typescript cli app",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
@@ -11,8 +12,8 @@
   },
   "author": "Tanner Swenson",
   "license": "ISC",
-  "dependencies": {
-    "ts-node": "^7.0.0",
+  "dependencies": {},
+  "devDependencies": {
     "typescript": "^3.0.1"
   }
 }
